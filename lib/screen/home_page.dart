@@ -23,6 +23,9 @@ class _HomePageState extends State<HomePage> {
       body: pages[currentIndex],
       floatingActionButton: FloatingActionButton(
           onPressed: (){
+            // setState(() {
+            //
+            // });
             if(context.locale.languageCode=='ar'){
               context.setLocale(Locale("en"));
             }else{

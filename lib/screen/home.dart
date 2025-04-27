@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
               children: [
               Padding(
                 padding: const EdgeInsets.all(20.0),
-                child: Text(StringManager.GOODMORNING,
+                child: Text(StringManager().GOODMORNING,
                   style: TextStyle(
                     fontWeight: FontWeight.w500,
                     fontSize: 24,
